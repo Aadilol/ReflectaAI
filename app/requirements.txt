@@ -1,0 +1,15 @@
+flask
+flask_cors
+transformers
+google
+collections
+random
+re
+gunicorn
+request
+jsonify
+CORS
+pipeline
+genai
+Counter
+defaultdict
