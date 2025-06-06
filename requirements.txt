@@ -1,6 +1,6 @@
 Flask>=2.0.0
 flask-cors
 transformers
-google-generativeai
+google-genai
 torch
 gunicorn
