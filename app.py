@@ -6,6 +6,7 @@ from collections import Counter
 from collections import defaultdict
 import random
 import re
+import os
 
 # === Gemini Client Setup ===
 api_key = "AIzaSyCfQF-IORV8C6NH_k0FcYUyuicsTXH5eUg"
@@ -311,4 +312,5 @@ def analyze():
 
 
 if __name__ == "__main__":
+    port = int(os.environ.get("PORT",5000)
     app.run(debug=True)
